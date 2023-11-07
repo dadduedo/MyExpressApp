@@ -1,0 +1,42 @@
+version: "3.7"
+networks:
+  app-tier:
+    driver: bridge
+
+services:
+  app:
+    image: myexpressapp
+    
+    ports:
+      - 3000:3000
+    working_dir: /app
+    volumes:
+      - ./:/app
+    depends_on:
+      - rabbitmq
+
+
+    restart: always
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: my-secret-pw
+      MYSQL_DB: test
+    networks:
+      - app-tier
+
+
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: 'rabbitmq' 
+    ports:
+        - 5672:5672
+        - 15672:15672     
+    networks:
+        - app-tier
+
+
+
+
+    

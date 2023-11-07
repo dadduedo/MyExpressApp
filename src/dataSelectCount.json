@@ -1,0 +1,69 @@
+{
+"countTotal": {
+"allCount": "445",
+"userMatchedCount": "345",
+"systemMatchedCount": "244",
+"userRejectedCount": "34",
+"matchingWaitingCount": "234",
+"fileWaitingCount" : "3",
+
+            "all": [{
+                "COMMON_REFERENCE": "1",
+                "ELAB": 3,
+                "ACQUIRED_ON": "30/04/2021",
+                "PROCESSED_ON": "30/04/2021",
+                "MATCHED_ON": "30/04/2021",
+                "MATCHED_BY": "maurizio.maisto@bgp.it"
+            }
+],
+"userMatched": [{
+                "COMMON_REFERENCE": "1",
+                "ELAB": 3,
+                "ACQUIRED_ON": "30/04/2021",
+                "PROCESSED_ON": "30/04/2021",
+                "MATCHED_ON": "30/04/2021",
+                "MATCHED_BY": "maurizio.maisto@bgp.it"
+            }
+
+],
+"systemMatched": [{
+                "COMMON_REFERENCE": "1",
+                "ELAB": 3,
+                "ACQUIRED_ON": "30/04/2021",
+                "PROCESSED_ON": "30/04/2021",
+                "MATCHED_ON": "30/04/2021",
+                "MATCHED_BY": "maurizio.maisto@bgp.it"
+            }
+],
+"userRejected": [
+                {
+                "COMMON_REFERENCE": "1",
+                "ELAB": 3,
+                "ACQUIRED_ON": "30/04/2021",
+                "PROCESSED_ON": "30/04/2021",
+                "MATCHED_ON": "30/04/2021",
+                "MATCHED_BY": "maurizio.maisto@bgp.it"
+            }
+],
+"matchingWaiting": [{
+                "COMMON_REFERENCE": "1",
+                "ELAB": 3,
+                "ACQUIRED_ON": "30/04/2021",
+                "PROCESSED_ON": "30/04/2021",
+                "MATCHED_ON": "30/04/2021",
+                "MATCHED_BY": "maurizio.maisto@bgp.it"
+            }
+],
+"fileWaiting": [{
+                "COMMON_REFERENCE": "1",
+                "ELAB": 3,
+                "ACQUIRED_ON": "30/04/2021",
+                "PROCESSED_ON": "30/04/2021",
+                "MATCHED_ON": "30/04/2021",
+                "MATCHED_BY": "maurizio.maisto@bgp.it"
+            }
+]
+}
+
+
+}
